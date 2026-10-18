@@ -163,6 +163,31 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
+.setup-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+}
+.setup-head .logo {
+  margin: 0;
+}
+.install-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-color: var(--green);
+  color: var(--green);
+  border-radius: 999px;
+}
+.install-help {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: var(--panel);
+  line-height: 1.45;
+}
 .notice {
   font-size: 0.8rem;
   color: var(--muted);

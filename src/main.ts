@@ -1,7 +1,10 @@
 import './styles.css';
 import { newGame, type GameState } from './engine';
+import { initInstall } from './install';
 import { GameScreen } from './ui/game';
 import { SetupScreen } from './ui/setup';
+
+initInstall();
 
 const STORAGE_KEY = 'tacta:game:v2';
 const app = document.getElementById('app')!;
